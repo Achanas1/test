@@ -10,7 +10,7 @@ function displayAnimalNames(animalNames) {
 }
 
 // Fetch animal names from the server
-fetch('http://localhost:3000/api/animals') // Assuming '/api/animals' is the endpoint in your server.js file
+fetch('https://test-theta-opal-51.vercel.app/') // Assuming '/api/animals' is the endpoint in your server.js file
   .then(response => response.json())
   .then(data => {
     // Call the function to display animal names
